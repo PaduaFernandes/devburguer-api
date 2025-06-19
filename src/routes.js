@@ -9,7 +9,7 @@ routes.get('/', async (request, response) => {
         id: v4(),
         name: 'PaduaFernandes2',
         email: 'paduafernandes2@yahoo.com',
-        password_hash: '12asr3456789',
+        password_hash: '12456789',
     })
 
     return response.status(201).json(user)
